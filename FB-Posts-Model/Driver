@@ -1,0 +1,9 @@
+from Model import Model
+from PersonaIdentification import PersonaIdentification
+
+def run():
+    Model().run()
+    # print('GOT TFIDF AAAAA')
+    # PersonaIdentification().run('testingdb_fangirl')
+    # PersonaIdentification().identifyPersona('testingdb_foodie2');
+run()
